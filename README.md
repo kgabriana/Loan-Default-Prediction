@@ -25,14 +25,9 @@ Decision Threshold Adjustment
 - Adjusted classification threshold from 0.50 to 0.49 to boost recall.
 - Precision-Recall tradeoff monitored for optimal risk management.
 
-Model Evaluation
-| Metric | Decision Tree | XGBoost Tuned | Random Forest | 
-| Accuracy | 82.4% | 81.5% | 85.2% | 
-| Weighted F1 Score | 83.4% | 82.9% | 85.7% | 
-| Class 1 Recall (Defaults) | 79.8% | 89.2% | 74.7% | 
 
-
-- SHAP Explainability: Key risk predictors identified:- Debt-to-Income Ratio (DEBTINC) strongly correlates with default risk.
+SHAP Explainability: 
+- Debt-to-Income Ratio (DEBTINC) strongly correlates with default risk.
 - Delinquency History (DELINQ) indicates likelihood of future defaults.
 - Financial Stability Score impacts default probability.
 
